@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1005291752562",
+    "project_id": "samplegoefence",
+    "storage_bucket": "samplegoefence.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005291752562:android:11c9ff183af308838946eb",
+        "android_client_info": {
+          "package_name": "com.google.android.gms.location.sample.geofencing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005291752562-nlln6hhhopvggdsvgksjhts0kkendvkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Op6w9ejJuWaFAw-Ctn4BYp6R92Wtwx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005291752562-nlln6hhhopvggdsvgksjhts0kkendvkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005291752562:android:28778e59c588b50b8946eb",
+        "android_client_info": {
+          "package_name": "com.sample.yaatree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005291752562-nlln6hhhopvggdsvgksjhts0kkendvkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Op6w9ejJuWaFAw-Ctn4BYp6R92Wtwx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005291752562-nlln6hhhopvggdsvgksjhts0kkendvkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

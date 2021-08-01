@@ -4,10 +4,10 @@ public class Day {
 
     private String dayStr;
     private String imageURL;
-    private int id;
+    private long id;
 
 
-    public Day(String dayStr, String imageURL, int id) {
+    public Day(String dayStr, String imageURL, long id) {
         this.dayStr = dayStr;
         this.imageURL = imageURL;
         this.id = id;
@@ -29,11 +29,11 @@ public class Day {
         this.imageURL = imageURL;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 }
