@@ -6,7 +6,7 @@
     app:startDestination="@+id/navigation_home">
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.sample.yaatree.HomeFragment"
+        android:name="com.sample.allthingstravel.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,20 +16,30 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.sample.yaatree.DashboardFragment"
+        android:name="com.sample.allthingstravel.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.sample.yaatree.NotificationsFragment"
+        android:name="com.sample.allthingstravel.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
         android:id="@+id/fragment_day_details"
-        android:name="com.sample.yaatree.DayDetails"
+        android:name="com.sample.allthingstravel.DayDetails"
         android:label="Day Details"
-        tools:layout="@layout/fragment_day_details"/>
+        tools:layout="@layout/fragment_day_details">
+        <action
+            android:id="@+id/action_navigation_day_details_to_map"
+            app:destination="@+id/fragment_maps"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_maps"
+        android:name="com.sample.allthingstravel.MapsFragment"
+        android:label="Maps fragment"
+        tools:layout="@layout/fragment_maps"/>
 
 </navigation>

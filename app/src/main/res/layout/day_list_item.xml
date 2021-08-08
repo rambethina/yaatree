@@ -20,16 +20,16 @@
             android:text="dayText"
             android:layout_centerHorizontal="true"
             android:textStyle="bold"
-            android:id="@+id/day"/>
+            android:id="@+id/dateStrTxt"/>
 
         <ImageView
             android:layout_width="165dp"
             android:layout_height="160dp"
-            android:id="@+id/dayImage"
+            android:id="@+id/dayImageUrl"
             android:src="@drawable/ic_launcher_background"
             android:layout_centerHorizontal="true"
             android:layout_margin="10dp"
-            android:layout_below="@+id/day">
+            android:layout_below="@+id/dateStrTxt">
 
         </ImageView>
     </RelativeLayout>
